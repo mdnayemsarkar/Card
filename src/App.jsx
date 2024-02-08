@@ -47,7 +47,7 @@ const Card = () => {
           {/* Header */}
           <div className="text-lg font-bold mb-4">
             Give feedback{" "}
-            <p className="text-xs font-semibold">
+            <p className="text-xs font-semibold mt-2">
               What do you think of the edeting tool?
             </p>
           </div>
