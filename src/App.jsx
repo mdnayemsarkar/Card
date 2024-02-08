@@ -5,7 +5,6 @@ const Card = () => {
     <>
       <div className="h-full py-32 w-full gap-24 mt-24 flex justify-center items-center flex-col font-Montsserat ">
         {/* first card  start  here*/}
-
         <div className=" w-96 shadow-xl shadow-blue-50 rounded-3xl p-12">
           <div className="flex justify-between  items-center ">
             <div className="text-sm font-semibold">ABOUT THE COMMUNITY </div>
@@ -134,7 +133,7 @@ const Card = () => {
             <p className="text-center mt-6 text-gray-400 font-medium">
               25 Feb,2021 - 0 comments
             </p>
-            <p className="text-center text-lg font-semibold">
+            <p className="text-center text-lg font-bold">
               Aliquam hendreit mi metus
             </p>
           </div>
@@ -177,19 +176,59 @@ const Card = () => {
           <div className="md:flex">
             <div className="md:flex-shrink-0"></div>
             <div className="p-8">
-              <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                Contact Us
-              </div>
-              <h2 className="text-lg font-semibold text-gray-900">
-                Get in Touch
+           
+              <h2 className="text-2xl font-semibold text-gray-900 mb-2">
+                <span className="flex items-center">
+                  <svg
+                    className="h-6 w-6 mr-2 text-indigo-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 5v.01M12 9c3.87 0 7-3.13 7-7s-3.13-7-7-7-7 3.13-7 7 3.13 7 7 7z"
+                    ></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M21 10.5C19.85 14.57 16.42 18 12 18s-7.85-3.43-9-7.5L3 10l3 3 3-3 3 3 3-3 3 3 3-3 3 3 3-3z"
+                    ></path>
+                  </svg>
+                  Get in Touch
+                </span>
               </h2>
-              <p className="mt-2 text-gray-600">
-                Feel free to reach out to us for any inquiries or questions.
+              <p className="text-gray-600 mb-4">
+                <span className="flex items-center">
+                  <svg
+                    className="h-6 w-6 mr-2 text-indigo-500"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M12 5v.01M12 9c3.87 0 7-3.13 7-7s-3.13-7-7-7-7 3.13-7 7 3.13 7 7 7z"
+                    ></path>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M21 10.5C19.85 14.57 16.42 18 12 18s-7.85-3.43-9-7.5L3 10l3 3 3-3 3 3 3-3 3 3 3-3 3 3 3-3z"
+                    ></path>
+                  </svg>
+                  Feel free to reach out to us for any inquiries or questions.
+                </span>
               </p>
               <div className="mt-4">
                 <div className="flex items-center">
                   <svg
-                    className="h-5 w-5 text-gray-400"
+                    className="h-5 w-5 text-gray-400 mr-2"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -201,13 +240,13 @@ const Card = () => {
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                     ></path>
                   </svg>
-                  <span className="ml-2 text-gray-600">
+                  <span className="text-gray-600">
                     123 Street, City, Country
                   </span>
                 </div>
                 <div className="flex items-center mt-2">
                   <svg
-                    className="h-5 w-5 text-gray-400"
+                    className="h-5 w-5 text-gray-400 mr-2"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -219,13 +258,11 @@ const Card = () => {
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                     ></path>
                   </svg>
-                  <span className="ml-2 text-gray-600">
-                    contact@example.com
-                  </span>
+                  <span className="text-gray-600">contact@example.com</span>
                 </div>
                 <div className="flex items-center mt-2">
                   <svg
-                    className="h-5 w-5 text-gray-400"
+                    className="h-5 w-5 text-gray-400 mr-2"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -237,13 +274,13 @@ const Card = () => {
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                     ></path>
                   </svg>
-                  <span className="ml-2 text-gray-600">+1234567890</span>
+                  <span className="text-gray-600">+1234567890</span>
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
         </div>
-        {/* fifth card starts from here  */}
+        ;{/* fifth card starts from here  */}
       </div>
     </>
   );
