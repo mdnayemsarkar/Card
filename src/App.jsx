@@ -1,9 +1,27 @@
 import Cardimg from "./assets/photos/cardimg.jpg";
-
+import CardProps from "./assets/Card";
+import CardTwo from "./assets/CardTwo";
+import CardThree from "./assets/cardTo";
+import StudentsTable from "./assets/StudentTable";
 const Card = () => {
   return (
     <>
       <div className="h-full py-32 w-full gap-24 mt-24 flex justify-center items-center flex-col font-Montsserat ">
+        {" "}
+        <CardProps
+          title="card no  one"
+          description="card one description one herre"
+          imageUrl="https://picsum.photos/536/354"
+        />
+        <CardTwo />
+        <StudentsTable/>
+        <CardThree>
+          <h1>Title: Lorem ipsum dolor sit amet consectetur.</h1>
+          <p>
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
+          </p>
+        </CardThree>
         {/* first card  start  here*/}
         <div className=" w-96 shadow-xl shadow-blue-50 rounded-3xl p-12">
           <div className="flex justify-between  items-center ">
@@ -176,7 +194,6 @@ const Card = () => {
           <div className="md:flex">
             <div className="md:flex-shrink-0"></div>
             <div className="p-8">
-           
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">
                 <span className="flex items-center">
                   <svg
@@ -280,7 +297,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        ;{/* fifth card starts from here  */}
+        {/* fifth card starts from here  */}
       </div>
     </>
   );
